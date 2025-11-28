@@ -1,4 +1,6 @@
-import "../backend/loadEnv.js";
+// import "../backend/loadEnv.js";
+import dotenv from "dotenv";
+dotenv.config();
 import path from "path";
 import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
